@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/home/nome2050/mysite/templates/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>ChatBot Testing</title>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+          <div class="panel-heading">CHATBOT</div>
+          <div class="panel-body">
+            <div class="container">
+                <div class="row message-bubble">
+                <p class="text-muted">BOT</p>
+                    <span>{{text}}</span>
+                </div>
+                <div class="panel-footer">
+                 <div class="input-group">
+                     <form action="/" method="get">
+                    Text: <input type="text" name="text" ><br>
+                    <input type="submit" value="Submit">
+                    </form>
+                     </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>
